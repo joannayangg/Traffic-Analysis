@@ -1,4 +1,9 @@
 # Traffic-Analysis
 
-A data analytics project by myself, Jason Hom, and Brendan Madden. Using public traffic data, we built models to predict characteristics of accidents based on 
-the information available. Using geographic data, we plotted out the density of traffic accidents in Washington and California. 
+A data analytics project by myself, Jason Hom, and Brendan Madden. Using public traffic data, we built logistic regression models and created and trained neural networks to predict characteristics of accidents based on the information available. 
+
+In this project, we will be examining a dataset made up of observations on car accidents in the United States. This data is collected from MapQuest and Bing, and each row features a variety of attributes, such as different types of weather, location and address, and identifier data. Inspecting a few rows, we found that the main attributes of the data could be divided up into three main sections: weather, location, and time data.
+
+Our overarching goal in working with this data is to find trends in each of the sections as well as build and train models to make predictions. We are interested in this data because it is from recent years and car accidents are common in our everyday lives. Thus, it will be interesting to see what factors impact the severity of accident, for example, or where the density of accidents is highest in the United States. It will also be interesting to see if the COVID-19 pandemic had an impact on the number or frequency of accidents.
+
+Finally, we will be required to pare down our data, as we are given 4.2 million rows to begin with. As a result we choose to work with data from California and Washington state, which still leaves us with hundreds of thousands of rows. We will start with weather analysis to see how weather trends are represented in the data, and predict the severity of accidents based on weather features. We will then move into location data to plot the density of accidents on a map and train and evaluate a model based on location features as well. Finally, we take a look at trends in the accident data over time, comparing months of the year and time of day to see what effects the have on counts and severity of accidents.
